@@ -12,9 +12,7 @@ A simple machine learning application that predicts the species of an Iris flowe
 - [Usage](#usage)
   - [API Endpoints](#api-endpoints)
 - [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 This project trains a machine learning model to classify Iris flower species based on the features: sepal length, sepal width, petal length, and petal width. It uses a Decision Tree classifier to predict the species of the Iris flower. The model is exposed via a Flask API, which is containerized using Docker, making it easy to deploy and run the application on any system.
