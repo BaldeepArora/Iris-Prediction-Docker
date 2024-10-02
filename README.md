@@ -71,17 +71,17 @@ The application will be available at http://localhost:4000 or http://<YOUR_VM_EX
   ```json
   {
   "input": [sepal_length, sepal_width, petal_length, petal_width]
-}
+  }
 - Example:
   ```json
   {
   "input": [5.1, 3.5, 1.4, 0.2]
-}
+  }
 - Response:
   ```json
   {
   "prediction": <predicted_class>
-}
+  }
 The prediction will be 0, 1, or 2, representing the Iris species (Setosa, Versicolor, Virginica).
 
 #### Testing the API
